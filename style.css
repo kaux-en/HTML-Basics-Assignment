@@ -1,0 +1,113 @@
+header{
+    font-family: Georgia serif;
+    font-size: 30px;
+    color: rgb(188, 130, 53);
+}
+
+
+h2 {
+    font-family: Georgia serif;
+    font-size: 24px;
+    color: maroon ;
+}
+
+body{
+    font-family: Georgia serif;
+}
+
+header, footer{
+    background-color: lightgoldenrodyellow;
+}
+
+header, h2, body{
+    padding: 5px ;
+    margin: 10px;
+}
+
+img{
+    margin-left: 15px;
+}
+
+.box {
+    border: 2px solid maroon;
+    padding: 10px;
+    margin: 10px;
+    width: 250;
+    height: 200;
+
+}
+
+div {
+    background-color: rgb(224, 224, 224);
+}
+
+a:link {
+    color: darkred; 
+}
+
+a:visited {
+    color: darkblue;
+}
+
+a:hover {
+    color: brown;
+}
+
+/* combinator */
+body ol {
+    line-height: 24px;
+}
+
+#ingredients {
+    line-height: 18px;
+}
+
+button {
+    font-size: 18px;
+    border: 1px solid lightgoldenrodyellow;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(239, 236, 220);   
+    color: rgb(138, 95, 39);
+    border-radius: 5px;
+    margin-top: 20px;
+    
+}
+
+button:link {
+    color: darkred; 
+}
+
+button:visited {
+    color: blue;
+}
+
+button:hover {
+    color: brown;
+}
+
+#form {
+    padding: 5px;
+    margin-top: 30px;
+    margin-left: 10px;
+    border-radius: 2px;
+
+}
+
+#button {
+    font-size: 15px;
+    width: 75px;
+    height: 40px;
+    border: 1px solid rgb(250, 220, 220);
+    background-color: rgb(238, 226, 228);
+    margin-top: 40px;
+}
+
+.title {
+    color: rgb(188, 130, 53);;
+}
+
+#label{
+    color: rgb(138, 95, 39);
+}
+   
